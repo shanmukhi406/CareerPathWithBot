@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/CareerPathWithBot/static/css/main.f0c2a608.css",
+    "main.js": "/CareerPathWithBot/static/js/main.8856acdc.js",
+    "static/js/453.c310e4be.chunk.js": "/CareerPathWithBot/static/js/453.c310e4be.chunk.js",
+    "static/media/java.png": "/CareerPathWithBot/static/media/java.41fd388f1923e2137a51.png",
+    "static/media/vlsi.jpeg": "/CareerPathWithBot/static/media/vlsi.6dec12e96886e1eb5fc9.jpeg",
+    "static/media/mean.jpeg": "/CareerPathWithBot/static/media/mean.b9ddbdcb769036158dff.jpeg",
+    "index.html": "/CareerPathWithBot/index.html",
+    "main.f0c2a608.css.map": "/CareerPathWithBot/static/css/main.f0c2a608.css.map",
+    "main.8856acdc.js.map": "/CareerPathWithBot/static/js/main.8856acdc.js.map",
+    "453.c310e4be.chunk.js.map": "/CareerPathWithBot/static/js/453.c310e4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0c2a608.css",
+    "static/js/main.8856acdc.js"
+  ]
+}
