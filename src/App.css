@@ -513,3 +513,83 @@ footer {
   color: rgba(255, 255, 255, 0.6) !important;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+/* --- RESPONSIVE DESIGN --- */
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .welcome-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .search-container {
+    width: 100%;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  .details-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .details-container {
+    padding: 20px;
+    margin: 10px;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .auth-card {
+    padding: 25px;
+    width: 90%;
+  }
+
+  .auth-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-banner h2 {
+    font-size: 1.2rem;
+  }
+
+  .career-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    /* Smaller cards */
+    gap: 15px;
+  }
+
+  .career-option .career-link {
+    width: 100%;
+    /* Fill grid cell */
+    height: auto;
+    aspect-ratio: 1/1;
+    /* Keep square */
+    padding: 15px;
+  }
+
+  .career-option img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .details-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    /* Stack stats */
+  }
+
+  .stat-card h3 {
+    font-size: 1.5rem;
+  }
+}

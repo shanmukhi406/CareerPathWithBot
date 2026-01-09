@@ -162,3 +162,25 @@
 .bot-link:hover {
     background: rgba(76, 201, 240, 0.2);
 }
+
+/* Responsive Bot */
+@media (max-width: 480px) {
+    .bot-container {
+        width: 100%;
+        height: 80vh;
+        /* Takes up most of the screen */
+        bottom: 0;
+        right: 0;
+        border-radius: 20px 20px 0 0;
+        left: 0;
+        margin: 0;
+    }
+
+    .bot-toggle-btn {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
